@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+}
+
+nav {
+    overflow: hidden;
+    background-image: url('../../assets/images/rainbow.png');
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #41639b;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+li.nav {
+    float: right;
+    margin-top: 40px;
+}
+
+li.nav a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: #10203a;
+}
+
+li.nav a:hover {
+    background-color: #41639b;
+    color: #ffffff;
+}
+
+h1 {
+    background-color: #41639b;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 21px;
+    margin: 0;
+}
+
+#floatleft {
+    float: left;
+    margin-top: 35px;
+}
+
+body {
+    /*background from Subtle Patterns*/
+    background-image: url('../images/marble.jpg');
+    background-repeat: repeat-y repeat-x;
+    background-color: purple;
+    height: 100%;
+    overflow: scroll;
+}
+
+.row {
+    width: 100%
+}
+.col-1 {
+    width: 66.6%;
+    float: left;
+    background-color: #ddeaff;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+
+section {
+    width: 960px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+h2 {
+    color: #10203a;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0px 20px 0px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #41639b;
+}
+
+#bio-image {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+p {
+    padding: 20px;
+    color: #10203a;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.col-2 {
+    width: 33.3%;
+    float: left;
+    background-color: #ddeaff;
+    padding: 10px;
+}
+
+ul.connect {
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: fit-content;
+}
+
+li.connect {
+    float: right;
+    margin: auto;
+    padding: 10px;
+}
+
+
+table, tr, td {
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.caption {
+    position: relative;
+}
+
+.textalign {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    width: 400px;
+    background-color: #41639b;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Josefin Slab', serif;
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+label {
+    font-family: 'Cinzel', serif;
+    color: #10203a;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #41639b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#message{
+    height: 150px;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-image: url('../../assets/images/rainbow.png');
+    background-color: #666666;
+    color: darkslategrey;
+    border-top: solid;
+    border-width: 10px;
+    border-color: #41639b;
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    .col-1 {
+        width: 100%;
+        margin: auto;
+    }
+    .co-2 {
+        width: 100%;
+        margin: auto;
+        background-color: blue;
+    }
+}
+
+/*@media only screen and (max-width: 768px) {
+    [class="col-1"] {
+        width: 100%;
+        margin: auto;
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    [class="col-1"] {
+        width: 100%;
+        margin: auto;
+        float: none;
+    }
+}
