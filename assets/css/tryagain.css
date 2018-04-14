@@ -211,38 +211,6 @@ footer {
 }
 
 @media only screen and (max-width: 640px) {
-    .heading {
-        position: static;
-        width: 100%;
-    }
-    h1 {
-        width: 100%;
-    }
-    .flex-container {
-        display: flex;
-        flex-flow: row wrap;
-    }
-    .left {
-        width: 80%;
-    }
-    .right {
-        width: 80%;
-        margin-bottom: 100px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .flex-container {
-        flex-direction: column;
-        align-content: center;
-    }
-    .right{
-        width: 80%;
-        margin-bottom: 100px;
-    }
-}
-
-@media only screen and (max-width: 980px) {
     .flex-container {
         display: flex;
         flex-flow: row wrap;
